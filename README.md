@@ -45,12 +45,10 @@ This query joins the clean data to calculate key metrics. It uses a series of CT
 
 ## **4. 📊 Visualization and Reporting**
 
-The project's final output is a Power BI dashboard, saved as:
-
-  [PowerBI Dashboard](Betting%20Data%202024.pbix).
+The project's final output is a Power BI dashboard, saved as [PowerBI Dashboard](Betting%20Data%202024.pbix).
 
 Dispalyed as: 
-  [Betting data and Bonus data Dashboard](Gamdon_Dash.png) 
+  ![Betting data and Bonus data Dashboard](Gamdon_Dash.png) 
 
 This dashboard visualizes the key metrics and insights. Please open the file to view the reports.
 
