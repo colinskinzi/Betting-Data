@@ -1,4 +1,4 @@
-# Betting Data Analysis**
+# **Betting Data Analysis**
 
 This document outlines the analysis process and key findings from the betting data.
 
