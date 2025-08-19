@@ -28,7 +28,7 @@ The main task was to fix inconsistent date formats.
 
 ## **3. Data Analysis: Deriving Insights with SQL**
 
-The core analysis used a complex SQL query from [Betting and Bonus Activity SQL File](Betting%20and%20Bonus%20Activity.sql). 
+The core analysis used a complex SQL query from ![Betting and Bonus Activity SQL File](Betting%20and%20Bonus%20Activity.sql). 
 This query joins the clean data to calculate key metrics. It uses a series of CTEs for a logical process:
 
   * **`ExpandedBonus`**: This CTE handled the "ALL" user segment, creating separate records for 'player' and 'VIP'.
@@ -45,6 +45,6 @@ This query joins the clean data to calculate key metrics. It uses a series of CT
 
 ### **4. Visualization and Reporting**
 
-The project's final output is a Power BI dashboard, saved as [](Betting%20Data%202024.pbix).
-Dispalyed as: [Betting data and Bonus data Dashboard](Gamdon_Dash.png) 
+The project's final output is a Power BI dashboard, saved as ![PowerBI Dashboard](Betting%20Data%202024.pbix).
+Dispalyed as: ![Betting data and Bonus data Dashboard](Gamdon_Dash.png) 
 This dashboard visualizes the key metrics and insights. Please open the file to view the reports.
