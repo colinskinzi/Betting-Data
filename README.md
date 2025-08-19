@@ -4,7 +4,7 @@ This document outlines the analysis process and key findings from the betting da
 
 -----
 
-## **1. Data Sources**
+## **1.📌 Data Sources**
 
 The analysis used three datasets:
 
@@ -16,7 +16,7 @@ The data is linked by the **`USER_ID`**.
 
 -----
 
-## **2. Data Preparation and Cleaning**
+## **2.🔍 Data Preparation and Cleaning**
 
 The first step was cleaning and standardizing the data using SQL queries from [Data Cleaning SQL File](Betting_Data/Data%20Cleaning%20and%20exploration.sql). 
 The main task was to fix inconsistent date formats.
@@ -26,7 +26,7 @@ The main task was to fix inconsistent date formats.
 
 -----
 
-## **3. Data Analysis: Deriving Insights with SQL**
+## **3.📊 Data Analysis: Deriving Insights with SQL**
 
 The core analysis used a complex SQL query from [Betting and Bonus Activity SQL File](Betting%20and%20Bonus%20Activity.sql). 
 This query joins the clean data to calculate key metrics. It uses a series of CTEs for a logical process:
@@ -43,7 +43,7 @@ This query joins the clean data to calculate key metrics. It uses a series of CT
       * `total_bonus_payout`
 
 
-## **4. 📊 Visualization and Reporting**
+## **4.📈 Visualization and Reporting**
 
 The project's final output is a Power BI dashboard, saved as [PowerBI Dashboard](Betting%20Data%202024.pbix).
 
