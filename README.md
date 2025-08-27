@@ -18,7 +18,7 @@ The data is linked by the **`USER_ID`**.
 
 ## **2.🔍 Data Preparation and Cleaning**
 
-The first step was cleaning and standardizing the data using SQL queries from [Data Cleaning SQL File](Betting_Data/Data%20Cleaning%20and%20exploration.sql). 
+The first step was cleaning and standardizing the data using SQL queries from [SQL File](Data_Cleaning_and_exploration.sql). 
 The main task was to fix inconsistent date formats.
 
   * **Date Standardization**: `DATE` columns had mixed formats. The `STR_TO_DATE()` function was used to convert all dates to a standard `YYYY-MM-DD` format.
@@ -28,7 +28,7 @@ The main task was to fix inconsistent date formats.
 
 ## **3.📊 Data Analysis: Deriving Insights with SQL**
 
-The core analysis used a complex SQL query from [Betting and Bonus Activity SQL File](Betting%20and%20Bonus%20Activity.sql). 
+The core analysis used a complex SQL query from [SQL File](Betting_and_Bonus_Activity.sql). 
 This query joins the clean data to calculate key metrics. It uses a series of CTEs for a logical process:
 
   * **`ExpandedBonus`**: This CTE handled the "ALL" user segment, creating separate records for 'player' and 'VIP'.
